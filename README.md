@@ -19,32 +19,32 @@
 
      * As demonstrated by the above images, Lots 1 and 2 have a variance that meets that standard; However, Lot 3's variance does not. Therefore, it is necessary to reexamine Lot 3 and determine what factors can decrease the variancwe. 
 
-## T-Tests on Suspension Coils
-To determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per sq. inch, I performed a t-test.
+## Suspension Coils T-Tests
+   * In order to acertain PSI levels across all manufacturing lots are statistically different from the population mean of 1,500 pounds per sq. inch, a T-Test was conducted.
 
-![Overall T-Test](https://github.com/rmward17/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.png)
+     ![Overall T-Test](Resources/Lot_Summary.png)
 
-The p-value is 0.06028. This means that the overall mean of 14987.8 is not different at a 95% confidence. 
+     * As demonstrated in the above image, the p-value is ~0.06 which signifies the overall mean of 14987.8 is not distinct at a 95% confidence. 
 
-I also performed a t-test on each lot to compare each manufacturing lot mean aganst the population mean.
+   * An additional T-test was conducted on each Lot to compare the manufacturing Lot mean vs the Population mean. See below:
 
-![Lot 1 T-Test](https://github.com/rmward17/MechaCar_Statistical_Analysis/blob/main/Lot1_test.png)
-|:--:|
-| <b>Lot 1 T-Test</b>|
+     ![Lot 1 T-Test](Resources/Lot1_test.png)
+     |:--:|
+     | <b>Lot 1 T-Test</b>|
 
-For lot 1, we can see that the p-value is 1 which means that the mean of Lot 1 is equal to the population mean at a 95% confidence level.
+     * For lot 1, we can see that the p-value is 1 which means that the mean of Lot 1 is equal to the population mean at a 95% confidence level.
 
-![Lot 2 T-Test](https://github.com/rmward17/MechaCar_Statistical_Analysis/blob/main/Lot2_test.png)
-|:--:|
-| <b>Lot 2 T-Test</b>|
+     ![Lot 2 T-Test](Resources/Lot2_test.png)
+     |:--:|
+     | <b>Lot 2 T-Test</b>|
 
-Lot 2 has a p-value of 0.607. That is another very high p-value and we can that the Lot 2 mean is equal to the population mean at a 95% confidence level.
+     * For Lot 2, we can see that the p-value is 0.607 which is still adequate. Additionally, the Lot 2 mean is equal to the population mean at a 95% confidence level.
 
-![Lot 3 T-Test](https://github.com/rmward17/MechaCar_Statistical_Analysis/blob/main/Lot3_test.png)
-|:--:|
-| <b>Lot 3 T-Test</b>|
+     ![Lot 3 T-Test](Resources/Lot3_test.png)
+     |:--:|
+     | <b>Lot 3 T-Test</b>|
 
-Lot 3 has a p-value of 0.04168. It is lower than 0.05 which means it is not equal to the population mean at a 95% confidence level.
+     * As seen in the image above, Lot 3 has a P-value of ~0.04 which is lower than 0.05. This means it is not equal to the population mean at a 95% confidence level.
 
 ## Study Design: MechaCar vs Competition
 A good way to gain insight on how MechaCar performs against comptitors is to run a statistical study. A metric I would consider measuring is fuel efficiency. A high fuel efficiency means that consumers would be spending less on gas and having less anxiety about runing out of gas while driving. 
