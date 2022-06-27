@@ -1,19 +1,18 @@
 # MechaCar_Statistical_Analysis
-## Linear Regression to Predict MPG
-   * In order to solve the given problemset, "R" was used and a linear regression model was implemented predict MPG based on the data provided. The data provided was the following:
+## Linear Regression in order to Predict MPG
+   * In order to solve the given problemset, "R" was used and a linear regression model was implemented to predict MPG based on the data provided. The data provided was the following:
       * MPG = 6.267(Vehicle Length) + 0.001245(Vehicle Weight) + 0.06877(Spoiler Angle) + 3.546(Ground Clearnace) -3.411(AWD) -0.0104
     
    * The folowing is the R Output:
 
-![R Output](Resources/MGP_LIN_regression_output.png)
+      ![R Output](Resources/MGP_LIN_regression_output.png)
 
-This output provides a lot of information about the linear regression model. The last line provides the p-value for the entire model, 5.35e-11. This is essentially a -value of 0 which means our model is statsitically significant. It also provides the adj. R-squared value for the model, 0.6825. This is a very good r-squared value and tells us that the model effectively predicts MPG ~70% of the time which is very good.
-
-In the Coefficients table, the Pr(>|t|) column tells us the p-value of every coefficient. Using that, we can see which paramters are significant in predicting MPG. Based on the p-values, at a 95% confidence level, we can determine that vehicle length and ground clearance are significant in predicting MPG. THis alos means that the slope of our model is not ) as we have 2 signifiacnt paramters and the intercept.
-
-## Summary Statistics on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. To check this, below are summary statistics in total and by lot.
-
+      * This linear regression model provides the information needed to conduct an inference. The last line provides the "P-value" for the entire model which is 5.35e-11. This represents a value of 0 which signifies the model is statistically accurate. The model also provides the Adj. R-squared value which is ~0.70. This is an adequate R-squared value and demonstrates our model predicts MPG ~70% of the time which is more than acceptable.
+      * Additionally, in the Co-Efficients table, we can see that the P-values are at a 95% confidence level which means both vehicle length and ground clearance are critical factors in predicting MPG. 
+      
+## Summary Statistics determining Suspension Coils
+   * According to the design specifications for the MechaCar, variance of the suspension coils must **not** exceed 100 pounds per square inch. In order to adhere to these specifications, below are the summary statistics in total  by lot.
+   * 
 ![Total Summary](https://github.com/rmward17/MechaCar_Statistical_Analysis/blob/main/Summary_Table.png)
 
 ![Lot Summary](https://github.com/rmward17/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.png)
