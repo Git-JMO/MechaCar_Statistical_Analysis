@@ -47,12 +47,8 @@
      * As seen in the image above, Lot 3 has a P-value of ~0.04 which is lower than 0.05. This means it is not equal to the population mean at a 95% confidence level.
 
 ## Study Design: MechaCar vs Competition
-A good way to gain insight on how MechaCar performs against comptitors is to run a statistical study. A metric I would consider measuring is fuel efficiency. A high fuel efficiency means that consumers would be spending less on gas and having less anxiety about runing out of gas while driving. 
-
-To do this study, we would need a null hypothesis and an alternative hypothesis. One option is below:
-Null: Drivers fill up their tanks at the same rate regardless of car over 30 days
-Alternative: Drivers will fill their tanks up at a rate 10% lower than those of their competitors over 30 days
-
-Using these methods, we could use a t-test on the average number of fill ups for each group of car. We would need data on the number of fill ups that drivers make for each car company to compare.
-
-That is just one way to test how well MechaCar fairs against competition, there are many other routes a statistician can take!
+   * A statistical study is the preferred way to gain an understanding of how MechaCar performs against comptitors. A critical metric I recommend testing is fuel efficiency. Moreover, high fuel efficiency indicates customers would ultimately be spending less on gas and have more confidence in traveling additional miles without running our of fuel. 
+     * In order to conducted this study, a null hypothesis and an alternative hypothesis would be required. Below are suggested options. 
+       * Null: A select amount of drivers fill up their gas tanks at the same rate for over 30 days 
+       * Alternative: A select amount of drivers fill their gas tanks up at a rate 10% lower than those of their competitors over 30 days
+     * With this experiment, we could implement a T-test on the average number of fill-ups for each group of car. This would require data on the number of fill ups each driver makes for each car company to compare.
