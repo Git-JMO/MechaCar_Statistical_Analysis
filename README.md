@@ -11,13 +11,13 @@
       * Additionally, in the Co-Efficients table, we can see that the P-values are at a 95% confidence level which means both vehicle length and ground clearance are critical factors in predicting MPG. 
       
 ## Summary Statistics determining Suspension Coils
-   * According to the design specifications for the MechaCar, variance of the suspension coils must **not** exceed 100 pounds per square inch. In order to adhere to these specifications, below are the summary statistics in total  by lot.
-   * 
-![Total Summary](Resources/Summary_Table.png)
+   * According to the design specifications for the MechaCar, variance of the suspension coils must **not** exceed 100 pounds per square inch. In order to adhere to these specifications, below are the summary statistics in total by Lot.
 
-![Lot Summary](Resources/Lot_Summary.png)
+    ![Total Summary](Resources/Summary_Table.png)
 
-The current manufacturing data meets this design specification for all manufacturing lots in total but not each lot individually. We can see that lots 1 and 2 have a variance that meets that standard but lot 3's variance is not. We should take a look at lot 3 to see what we can do to decrease that variance.
+    ![Lot Summary](Resources/Lot_Summary.png)
+
+     * As demonstrated by the above images, Lots 1 and 2 have a variance that meets that standard; However, Lot 3's variance does not. Therefore, it is necessary to reexamine Lot 3 and determine what factors can decrease the variancwe. 
 
 ## T-Tests on Suspension Coils
 To determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per sq. inch, I performed a t-test.
