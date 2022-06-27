@@ -46,7 +46,7 @@
 
      * As seen in the image above, Lot 3 has a P-value of ~0.04 which is lower than 0.05. This means it is not equal to the population mean at a 95% confidence level.
 
-## Study Design: MechaCar vs Competition
+## Study Design: MechaCar vs the Competition
    * A statistical study is the preferred way to gain an understanding of how MechaCar performs against comptitors. A critical metric I recommend testing is fuel efficiency. Moreover, high fuel efficiency indicates customers would ultimately be spending less on gas and have more confidence in traveling additional miles without running our of fuel. 
      * In order to conducted this study, a null hypothesis and an alternative hypothesis would be required. Below are suggested options. 
        * Null: A select amount of drivers fill up their gas tanks at the same rate for over 30 days 
