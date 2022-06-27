@@ -5,7 +5,7 @@
     
    * The folowing is the R Output:
 
-![R Output](Resources/mpg_linear_regression_output.png)
+![R Output](Resources/MGP_LIN_regression_output.png)
 
 This output provides a lot of information about the linear regression model. The last line provides the p-value for the entire model, 5.35e-11. This is essentially a -value of 0 which means our model is statsitically significant. It also provides the adj. R-squared value for the model, 0.6825. This is a very good r-squared value and tells us that the model effectively predicts MPG ~70% of the time which is very good.
 
